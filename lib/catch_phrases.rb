@@ -12,6 +12,6 @@ end
 def link
   puts "It's Dangerous To Go Alone! Take This.\n"
 end
-def all_phrases(catch_phrase=)
+def all_phrases(catch_phrase="It's-a me, Mario!\n")
   puts catch_phrase
 end
