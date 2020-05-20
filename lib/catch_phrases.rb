@@ -1,8 +1,21 @@
+
 def mario
-  status = 'Thank You Mario! But Our Princess Is In Another Castle!'
-  puts phrase
+  phase = "It's-a me, Mario!\n"
+  status = 'Thank You Mario! But Our Princess Is In Another Castle!' 
+  puts phase
 end
 
 def toadstool
+  status = 'Thank You Mario! But Our Princess Is In Another Castle!' 
   puts status
+end
+def link
+  puts "It's Dangerous To Go Alone! Take This.\n"
+end
+def all_phrases(catch_phrase="It's-a me, Mario!\n")
+  mario()
+  toadstool()
+  link()
+  
+  
 end
